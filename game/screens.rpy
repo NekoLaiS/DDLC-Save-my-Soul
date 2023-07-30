@@ -499,7 +499,7 @@ screen navigation():
                 textbutton _("Save Game") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
             textbutton _("Load Game") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
-
+            textbutton "ExP Previewer" action ShowMenu("new_exposer_previewer")
             if enable_extras_menu:
                 textbutton _("Extras") action [ShowMenu("extras"), SensitiveIf(renpy.get_screen("extras") == None)]
 
