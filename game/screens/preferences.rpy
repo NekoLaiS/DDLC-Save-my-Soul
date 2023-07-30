@@ -7,9 +7,9 @@
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
 screen preferences():
-
+   
     tag menu
-
+    add "menu_bg"
     if renpy.mobile:
         $ cols = 2
     else:
